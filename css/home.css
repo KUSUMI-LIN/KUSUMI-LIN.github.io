@@ -1,0 +1,17 @@
+.hom_ban{
+    background: url(../assets/tokyo.jpg) bottom center no-repeat;
+    background-size: cover;
+    position: relative;
+    z-index: -2;
+}
+.hom_ban::before{
+    content: "";
+    position: absolute;
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    opacity: .5;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}

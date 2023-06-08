@@ -1,0 +1,15 @@
+.sch_link{
+    padding-bottom: 10px;
+    color: #e63946;
+    text-decoration: underline;
+    text-decoration-style: dashed;
+}
+.link_green{
+    color: rgb(25, 135, 84);
+}
+.link_blue{
+    color: #0d6efd;
+}
+.sch_link:hover,.sch_link:active{
+    color: #457b9d;
+}
